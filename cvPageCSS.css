@@ -1,13 +1,18 @@
 
 body
 {
-    background-image: url('content/backgroundImage.png');
-    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#intro
+{
+    background-color: white;
+    color: black;
 }
 
 #pageHeader
 {
-    color: rgba(255,255,255,.9);
+    color: black;
     font-size: 5em;
     padding-bottom: 0.3em;
     text-align: center;
@@ -15,13 +20,13 @@ body
 
 .catHeading
 {
-    color: rgb(169, 223, 190);
+    color: white;
     text-align:center;
 }
 
 .eduTitle
 {
-    color: rgb(235, 252, 243);
+    color: white;
 }
 
 .contentBloc
@@ -100,17 +105,17 @@ body
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: rgba(255,255,255,.8);
+    color: black;
 }
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
     font-size: 1.9em;
-    color: rgb(255, 255, 255);
+    color: black;
     padding-right: 0.6em;
     padding-left: 0.6em;
 }
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: #97d1c4;
+    color: blue;
 }
