@@ -99,6 +99,17 @@ body
     list-style: none;
 }
 
+#aboutPersonalInterestList
+{
+    list-style: none;
+}
+
+.aboutPersonalListItemHead
+{
+    padding: 0.8em;
+    padding-left: 0em;
+}
+
 /*The CSS for adding custom styles to the bootstrap navbar was taken from: https://medium.com/wdstack/bootstrap-4-custom-navbar-1f6a2da5ed3c */
 .navbar-custom {
 }
@@ -117,5 +128,5 @@ body
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: blue;
+    color: rgb(61, 148, 206);
 }
