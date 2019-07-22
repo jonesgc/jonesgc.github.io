@@ -2,9 +2,11 @@
 body
 {
     background-color: rgb(27, 28, 28);
+    /*Photo by Matt Palmer on Unsplash*/
+    background-image: url("content/matt-palmer-_XCvE3zCUAM-unsplash.jpg");
 }
 
-#intro
+#navbar
 {
     background-color: white;
     color: rgb(27, 28, 28);
@@ -14,16 +16,38 @@ body
     border-bottom-left-radius: 0.4em;
     border-bottom-right-radius: 0.4em;
     border-width: 0.09em;
+    box-shadow: 2px 2px 2px 2px #000000;
 }
 
 #pageHeader
 {
-    color: rgb(27, 28, 28);
+    color: rgb(255, 255, 255);
     font-size: 5em;
     padding-bottom: 0.3em;
     text-align: center;
 }
 
+#introBlurb
+{
+    text-align: center;
+}
+
+#splash
+{
+    
+    padding-top: 10em;
+    color: white;
+}
+
+#splashBox
+{
+    background-color: rgba(65, 69, 70, 0.842);
+}
+
+#mainCont
+{
+    
+}
 .catHeading
 {
     color: white;
@@ -39,6 +63,8 @@ body
 .contentBloc
 {
     color: white;
+    background-color: rgba(65, 69, 70, 0.842);
+    padding: 1em;
 }
 
 #eduNav 
@@ -136,6 +162,9 @@ body
     padding-top: 0em;
     font-size: 1.5em;
 }
+
+
+
 
 /*The CSS for adding custom styles to the bootstrap navbar was taken from: https://medium.com/wdstack/bootstrap-4-custom-navbar-1f6a2da5ed3c */
 .navbar-custom {

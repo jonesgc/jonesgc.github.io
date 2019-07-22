@@ -25,7 +25,8 @@ function deliverContent()
 function displayContentToggle(contentToDisplay)
 {
     var currentVisibile = "none";
-    document.getElementById("pageHeader").style.display = "none";
+    
+    document.getElementById("splash").style.display = "none";
     switch (contentToDisplay) 
     {
         case education:
@@ -57,13 +58,6 @@ function displayContentToggle(contentToDisplay)
                 currentVisibile = "about";
             }
             break;
-        
-        case work:
-            if(document.getElementById("workExamples").style.display === "none")
-            {
-                document.getElementById("workExamples").style.display = "block";
-                currentVisibile = "workExamples"
-            }
         default:
             console.log("Error in displayContentToggle: default value.");
             break;
