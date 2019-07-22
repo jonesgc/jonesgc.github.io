@@ -124,6 +124,19 @@ body
     border-color: rgb(210, 214, 214);
 }
 
+#contactDetails
+{
+    padding-left: 1em;
+}
+
+#aboutContactList
+{
+    list-style: none;
+    padding: 1em;
+    padding-top: 0em;
+    font-size: 1.5em;
+}
+
 /*The CSS for adding custom styles to the bootstrap navbar was taken from: https://medium.com/wdstack/bootstrap-4-custom-navbar-1f6a2da5ed3c */
 .navbar-custom {
 }
